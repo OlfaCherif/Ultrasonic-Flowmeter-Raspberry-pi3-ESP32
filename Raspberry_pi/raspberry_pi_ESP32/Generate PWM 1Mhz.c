@@ -1,3 +1,5 @@
+// In this file we're going to generate a 1MHz PWM to power the transducers with Raspberry Pi3
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<wiringPi.h>
