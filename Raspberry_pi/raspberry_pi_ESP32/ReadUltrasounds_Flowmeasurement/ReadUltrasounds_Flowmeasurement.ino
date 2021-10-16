@@ -45,6 +45,7 @@ if (analogRead(T1)>1000)
 }
 
 d=Debit(time1,time2);
+ # This function measure the flow depending on the reading time of ultrasounds 
 
 Serial.print("The actual waterflow is");
 Serial.println(d);
