@@ -3,6 +3,9 @@ import pigpio
 
 pi = pigpio.pi() # Connect to local Pi.
 
+#This package makes the raspberry pi generate high frequencies ( in MHz) by using the hardware clock of the raspberry 
+#The usual PWM function doesn't allow that 
+
 
 while true
     pi.hardware_clock(18, 1000000) # Generate square wave of 1MHz frequency on the PWM pin 18 connected to the transducer 1 
