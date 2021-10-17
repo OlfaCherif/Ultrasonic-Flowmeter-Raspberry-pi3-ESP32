@@ -1,1 +1,6 @@
+In this project we will be using C++ for coding the raspberry 
+We used the Geany's programmer's editor for C++ code
+We used C++ to control the hardware GPIO and generate high frequencies and makes the transducers work correctly and send ultrasounds.
+The WiringPi is the only C++ library which controls the hardware PWM pin.
 
+In the other hand, we will be reading ultrasounds on the Esp32 and calculate the waterflow.
