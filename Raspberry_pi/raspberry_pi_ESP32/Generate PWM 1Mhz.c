@@ -7,7 +7,7 @@
 
 #define pinT1 18 // This pin is connected to two transducers (Mode: Transmetter)
 
-#define mode PWM_MODE_MS
+#define mode PWM_MODE_MS // this mode is used to give an accurate signal when the frequencies is high
 
 int main(int arglen, char *argv[])
 {
